@@ -4,7 +4,7 @@ import time
 
 TELA_LARGURA = 500
 TELA_ALTURA = 800
-DIFICULDADE = 2
+DIFICULDADE = 0
 
 IMAGEM_CANO = pygame.transform.scale2x(pygame.image.load("assets/pipe.png"))
 IMAGEM_CHAO = pygame.transform.scale2x(pygame.image.load("assets/base.png"))
@@ -183,7 +183,7 @@ def main():
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 pygame.quit()
-                exit()
+                break
             if evento.type == pygame.KEYDOWN:
                 if evento.key == pygame.K_RETURN:
                     for passaro in passaros:
