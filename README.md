@@ -10,3 +10,8 @@ Clone the repository to your local machine.
 Ensure you have Python and dependecies installed.
 Run the game script and start flapping!
 Feel free to explore, contribute, and customize the game. Happy coding and flapping!
+
+ID   -----   DIFICULDADE
+0            Fácil
+1            Normal
+2            Dificil
